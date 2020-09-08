@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="F:\DevOps Practice\maven\mvnfolderstructure\flipkart\cart\target/cart.zip">
+    <zipfileset includes="lib/**" dir="F:\DevOps Practice\maven\mvnfolderstructure\flipkart\cart\target"/>
+    <zipfileset includes="cart.jar" dir="F:\DevOps Practice\maven\mvnfolderstructure\flipkart\cart\target"/>
+    <zipfileset includes="readme.txt" dir="F:\DevOps Practice\maven\mvnfolderstructure\flipkart\cart"/>
+  </zip>
+</target>
+</project>
